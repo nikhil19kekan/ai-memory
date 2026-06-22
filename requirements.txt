@@ -1,0 +1,6 @@
+spacy>=3.7
+lemminflect>=0.2
+networkx>=3.0
+matplotlib>=3.7
+numpy>=1.24
+google-genai>=1.0

@@ -1,0 +1,60 @@
+{"id": 1, "category": "simple_verb", "sentence": "Nikhil likes biryani", "expected_triples": [{"subject": "nikhil", "predicate": "LIKES", "object": "biryani"}]}
+{"id": 2, "category": "simple_verb", "sentence": "Priya loves chocolate", "expected_triples": [{"subject": "priya", "predicate": "LOVES", "object": "chocolate"}]}
+{"id": 3, "category": "simple_verb", "sentence": "Nikhil hates mushrooms", "expected_triples": [{"subject": "nikhil", "predicate": "HATES", "object": "mushrooms"}]}
+{"id": 4, "category": "simple_verb", "sentence": "Ravi drinks coffee every morning", "expected_triples": [{"subject": "ravi", "predicate": "DRINKS", "object": "coffee", "qualifier": "every morning"}]}
+{"id": 5, "category": "simple_verb", "sentence": "Sunita cooks dinner", "expected_triples": [{"subject": "sunita", "predicate": "COOKS", "object": "dinner"}]}
+{"id": 6, "category": "simple_verb", "sentence": "Nikhil reads science fiction", "expected_triples": [{"subject": "nikhil", "predicate": "READS", "object": "science fiction"}]}
+{"id": 7, "category": "simple_verb", "sentence": "Priya watches Korean dramas", "expected_triples": [{"subject": "priya", "predicate": "WATCHES", "object": "Korean dramas"}]}
+{"id": 8, "category": "simple_verb", "sentence": "Ravi plays cricket on weekends", "expected_triples": [{"subject": "ravi", "predicate": "PLAYS", "object": "cricket", "qualifier": "on weekends"}]}
+{"id": 9, "category": "simple_verb", "sentence": "Nikhil drives a Tesla", "expected_triples": [{"subject": "nikhil", "predicate": "DRIVES", "object": "Tesla"}]}
+{"id": 10, "category": "simple_verb", "sentence": "Sunita follows cricket", "expected_triples": [{"subject": "sunita", "predicate": "FOLLOWS", "object": "cricket"}]}
+{"id": 11, "category": "negation", "sentence": "Nikhil does not like mushrooms", "expected_triples": [{"subject": "nikhil", "predicate": "DISLIKES", "object": "mushrooms"}]}
+{"id": 12, "category": "negation", "sentence": "Priya doesn't eat meat", "expected_triples": [{"subject": "priya", "predicate": "DISLIKES", "object": "meat"}]}
+{"id": 13, "category": "negation", "sentence": "Ravi never drinks alcohol", "expected_triples": [{"subject": "ravi", "predicate": "AVOIDS", "object": "alcohol"}]}
+{"id": 14, "category": "conjunct", "sentence": "Nikhil likes biryani and dosa", "expected_triples": [{"subject": "nikhil", "predicate": "LIKES", "object": "biryani"}, {"subject": "nikhil", "predicate": "LIKES", "object": "dosa"}]}
+{"id": 15, "category": "conjunct", "sentence": "Priya loves pasta, sushi and tacos", "expected_triples": [{"subject": "priya", "predicate": "LOVES", "object": "pasta"}, {"subject": "priya", "predicate": "LOVES", "object": "sushi"}, {"subject": "priya", "predicate": "LOVES", "object": "tacos"}]}
+{"id": 16, "category": "conjunct", "sentence": "Ravi hates broccoli and spinach", "expected_triples": [{"subject": "ravi", "predicate": "HATES", "object": "broccoli"}, {"subject": "ravi", "predicate": "HATES", "object": "spinach"}]}
+{"id": 17, "category": "qualifier", "sentence": "Nikhil likes biryani a lot", "expected_triples": [{"subject": "nikhil", "predicate": "LIKES", "object": "biryani", "qualifier": "a lot"}]}
+{"id": 18, "category": "qualifier", "sentence": "Priya sometimes eats pizza", "expected_triples": [{"subject": "priya", "predicate": "EATS", "object": "pizza", "qualifier": "sometimes"}]}
+{"id": 19, "category": "qualifier", "sentence": "Ravi occasionally drinks wine", "expected_triples": [{"subject": "ravi", "predicate": "DRINKS", "object": "wine", "qualifier": "occasionally"}]}
+{"id": 20, "category": "attribute", "sentence": "Nikhil is a software engineer", "expected_triples": [{"subject": "nikhil", "predicate": "IS", "object": "software engineer"}]}
+{"id": 21, "category": "attribute", "sentence": "Priya is a doctor", "expected_triples": [{"subject": "priya", "predicate": "IS", "object": "doctor"}]}
+{"id": 22, "category": "attribute", "sentence": "Ravi is a 28 year old data scientist", "expected_triples": [{"subject": "ravi", "predicate": "IS", "object": "28 year old data scientist"}]}
+{"id": 23, "category": "attribute", "sentence": "Nikhil is a software engineer and a food lover", "expected_triples": [{"subject": "nikhil", "predicate": "IS", "object": "software engineer"}, {"subject": "nikhil", "predicate": "IS", "object": "food lover"}]}
+{"id": 24, "category": "state", "sentence": "Nikhil is stressed", "expected_triples": [{"subject": "nikhil", "predicate": "STATE", "object": "stressed"}]}
+{"id": 25, "category": "state", "sentence": "Priya is happy today", "expected_triples": [{"subject": "priya", "predicate": "STATE", "object": "happy"}]}
+{"id": 26, "category": "state", "sentence": "Ravi is feeling tired", "expected_triples": [{"subject": "ravi", "predicate": "STATE", "object": "tired"}]}
+{"id": 27, "category": "location", "sentence": "Nikhil lives in Bangalore", "expected_triples": [{"subject": "nikhil", "predicate": "LIVES_IN", "object": "bangalore"}]}
+{"id": 28, "category": "location", "sentence": "Priya lives in Mumbai", "expected_triples": [{"subject": "priya", "predicate": "LIVES_IN", "object": "mumbai"}]}
+{"id": 29, "category": "location", "sentence": "Ravi moved to Delhi", "expected_triples": [{"subject": "ravi", "predicate": "LIVES_IN", "object": "delhi"}]}
+{"id": 30, "category": "organization", "sentence": "Nikhil works at Google", "expected_triples": [{"subject": "nikhil", "predicate": "WORKS_AT", "object": "google"}]}
+{"id": 31, "category": "organization", "sentence": "Priya works at Apollo Hospital", "expected_triples": [{"subject": "priya", "predicate": "WORKS_AT", "object": "apollo hospital"}]}
+{"id": 32, "category": "organization", "sentence": "Ravi joined Microsoft last year", "expected_triples": [{"subject": "ravi", "predicate": "WORKS_AT", "object": "microsoft"}]}
+{"id": 33, "category": "possessive", "sentence": "Nikhil's mother lives in Delhi", "expected_triples": [{"subject": "nikhil", "predicate": "MOTHER", "object": "nikhil:mother"}, {"subject": "nikhil:mother", "predicate": "LIVES_IN", "object": "delhi"}]}
+{"id": 34, "category": "possessive", "sentence": "Priya's brother works at Amazon", "expected_triples": [{"subject": "priya", "predicate": "BROTHER", "object": "priya:brother"}, {"subject": "priya:brother", "predicate": "WORKS_AT", "object": "amazon"}]}
+{"id": 35, "category": "possessive_named", "sentence": "Nikhil's mother Sunita lives in Delhi", "expected_triples": [{"subject": "nikhil", "predicate": "MOTHER", "object": "sunita"}, {"subject": "sunita", "predicate": "LIVES_IN", "object": "delhi"}]}
+{"id": 36, "category": "possessive_named", "sentence": "Ravi's wife Meera is a teacher", "expected_triples": [{"subject": "ravi", "predicate": "WIFE", "object": "meera"}, {"subject": "meera", "predicate": "IS", "object": "teacher"}]}
+{"id": 37, "category": "supersession", "sentence": "Nikhil now works at Razorpay", "expected_triples": [{"subject": "nikhil", "predicate": "WORKS_AT", "object": "razorpay"}], "supersedes": "WORKS_AT"}
+{"id": 38, "category": "supersession", "sentence": "Nikhil moved to Mumbai", "expected_triples": [{"subject": "nikhil", "predicate": "LIVES_IN", "object": "mumbai"}], "supersedes": "LIVES_IN"}
+{"id": 39, "category": "sentiment_flip", "sentence": "Nikhil now loves coffee", "expected_triples": [{"subject": "nikhil", "predicate": "LOVES", "object": "coffee"}], "supersedes": "HATES"}
+{"id": 40, "category": "compound_noun", "sentence": "Nikhil likes Indian food", "expected_triples": [{"subject": "nikhil", "predicate": "LIKES", "object": "indian food"}]}
+{"id": 41, "category": "compound_noun", "sentence": "Priya enjoys classical music", "expected_triples": [{"subject": "priya", "predicate": "LIKES", "object": "classical music"}]}
+{"id": 42, "category": "compound_noun", "sentence": "Ravi prefers black coffee", "expected_triples": [{"subject": "ravi", "predicate": "PREFERS", "object": "black coffee"}]}
+{"id": 43, "category": "implied_object", "sentence": "Nikhil cooks", "expected_triples": [{"subject": "nikhil", "predicate": "COOKS", "object": "food"}]}
+{"id": 44, "category": "implied_object", "sentence": "Priya eats", "expected_triples": [{"subject": "priya", "predicate": "EATS", "object": "food"}]}
+{"id": 45, "category": "relclause", "sentence": "Nikhil is a male who loves Indian food", "expected_triples": [{"subject": "nikhil", "predicate": "IS", "object": "male"}, {"subject": "nikhil", "predicate": "LOVES", "object": "indian food"}]}
+{"id": 46, "category": "relclause", "sentence": "Priya is a vegetarian who hates mushrooms", "expected_triples": [{"subject": "priya", "predicate": "IS", "object": "vegetarian"}, {"subject": "priya", "predicate": "HATES", "object": "mushrooms"}]}
+{"id": 47, "category": "modal", "sentence": "Biryani could be Nikhil's favorite food", "expected_triples": [{"subject": "biryani", "predicate": "COULD_BE", "object": "nikhil's favorite food"}]}
+{"id": 48, "category": "complex", "sentence": "Nikhil's mother Sunita who lives in Delhi is a retired teacher", "expected_triples": [{"subject": "nikhil", "predicate": "MOTHER", "object": "sunita"}, {"subject": "sunita", "predicate": "LIVES_IN", "object": "delhi"}, {"subject": "sunita", "predicate": "IS", "object": "retired teacher"}]}
+{"id": 49, "category": "complex", "sentence": "Ravi visits his grandmother in Chennai every summer", "expected_triples": [{"subject": "ravi", "predicate": "VISITS", "object": "chennai", "qualifier": "every summer"}]}
+{"id": 50, "category": "complex", "sentence": "Nikhil prefers PostgreSQL over MySQL for transactional workloads", "expected_triples": [{"subject": "nikhil", "predicate": "PREFERS", "object": "postgresql", "qualifier": "over mysql"}]}
+{"id": 51, "category": "unknown_verb", "sentence": "Nikhil admires Elon Musk", "expected_triples": [{"subject": "nikhil", "predicate": "ADMIRES", "object": "elon musk"}], "requires_llm": true}
+{"id": 52, "category": "unknown_verb", "sentence": "Priya practices yoga every morning", "expected_triples": [{"subject": "priya", "predicate": "PRACTICES", "object": "yoga", "qualifier": "every morning"}], "requires_llm": true}
+{"id": 53, "category": "unknown_pattern", "sentence": "Nikhil is into running", "expected_triples": [{"subject": "nikhil", "predicate": "INTERESTED_IN", "object": "running"}], "requires_llm": true}
+{"id": 54, "category": "unknown_pattern", "sentence": "Priya is really into painting", "expected_triples": [{"subject": "priya", "predicate": "INTERESTED_IN", "object": "painting"}], "requires_llm": true}
+{"id": 55, "category": "past_tense", "sentence": "Nikhil liked pizza as a child", "expected_triples": [{"subject": "nikhil", "predicate": "LIKES", "object": "pizza", "date": "as a child"}]}
+{"id": 56, "category": "past_tense", "sentence": "Ravi hated spinach last year", "expected_triples": [{"subject": "ravi", "predicate": "HATES", "object": "spinach", "date": "last year"}]}
+{"id": 57, "category": "ownership", "sentence": "Nikhil owns a MacBook Pro", "expected_triples": [{"subject": "nikhil", "predicate": "OWNS", "object": "macbook pro"}]}
+{"id": 58, "category": "ownership", "sentence": "Priya has a golden retriever", "expected_triples": [{"subject": "priya", "predicate": "HAS", "object": "golden retriever"}]}
+{"id": 59, "category": "social", "sentence": "Nikhil knows Priya", "expected_triples": [{"subject": "nikhil", "predicate": "KNOWS", "object": "priya"}]}
+{"id": 60, "category": "social", "sentence": "Ravi meets his team every Monday", "expected_triples": [{"subject": "ravi", "predicate": "MEETS", "object": "team", "qualifier": "every Monday"}]}
